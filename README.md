@@ -82,7 +82,7 @@ El motor matemático central realiza el cálculo en los siguientes pasos lógico
 4.  **Vacaciones:** Al no ser una prestación social sino un descanso remunerado, se calculan utilizando el total histórico de días trabajados en toda la vigencia del contrato, pero multiplicados estrictamente por el `sueldo_mensual` pactado.
 5.  **Validación de Salario Integral:** Si el trabajador goza de salario integral, el motor internamente ajusta a $0 la prima, las cesantías y sus intereses, liquidando únicamente las vacaciones acumuladas y el salario del último mes.
 
-#🖥️ Ejecución de la interfaz gráfica
+# 🖥️ Ejecución de la interfaz gráfica
 
 "Cesar Ramirez Garcia
 Juan Jose Garcia Agudelo"
@@ -90,7 +90,7 @@ Juan Jose Garcia Agudelo"
 Instalar Kivy:
 pip install kivy
 
-##🚀 Cómo abrir la interfaz gráfica
+## 🚀 Cómo abrir la interfaz gráfica
 
 Para ejecutar la aplicación, abrir una terminal en la carpeta raíz del proyecto y ejecutar el siguiente comando:
 
@@ -98,7 +98,7 @@ python Liquidadora_definitiva.py
 
 Este archivo es el punto de entrada de la aplicación. Importa la clase LiquidadorDefinitivoApp desde el módulo view.gui.Liquidador_definitivo, ubicado dentro de la carpeta src, y ejecuta la interfaz mediante el método run() de Kivy.
 
-##🧪 Ejecución de pruebas unitarias
+## 🧪 Ejecución de pruebas unitarias
 
 El proyecto utiliza la biblioteca unittest de Python para comprobar el funcionamiento de la lógica de liquidación definitiva.
 
@@ -115,7 +115,7 @@ Validación de salarios negativos.
 Validación de días pendientes.
 Validación del auxilio de transporte.
 
-##📦 Generación del ejecutable
+## 📦 Generación del ejecutable
 
 El proyecto incluye el archivo Liquidadora_definitiva.spec, utilizado para configurar la generación de un ejecutable mediante PyInstaller.
 
@@ -129,7 +129,7 @@ pyinstaller Liquidadora_definitiva.spec
 
 Si la compilación finaliza correctamente, el ejecutable se encontrará en la carpeta dist.
 
-##📱 Aplicación para Android
+## 📱 Aplicación para Android
 
 El proyecto puede distribuirse como una aplicación Android mediante un archivo APK, si se genera y se incluye en la distribución del proyecto.
 
