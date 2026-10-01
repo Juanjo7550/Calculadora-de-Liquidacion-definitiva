@@ -84,8 +84,9 @@ El motor matemático central realiza el cálculo en los siguientes pasos lógico
 
 # 🖥️ Ejecución de la interfaz gráfica
 
-"Cesar Ramirez Garcia
-Juan Jose Garcia Agudelo"
+"Cesar Ramirez Garcia"
+
+"Juan Jose Garcia Agudelo"
 
 Instalar Kivy:
 pip install kivy
